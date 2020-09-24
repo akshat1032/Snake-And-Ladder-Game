@@ -28,15 +28,9 @@ public class SnakeAndLadderGame {
 		switch(option) {
 		case IS_LADDER:
 			position = position + dieRoll;
-			if (position > 100) {
-				position = position - dieRoll;
-			}
 			break;
 		case IS_SNAKE:
 			position = position - dieRoll;
-			if (position < 0) {
-				position = 0;
-			}
 			break;
 		default:
 			position = position - 0; // No change in position
