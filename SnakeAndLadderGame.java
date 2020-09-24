@@ -4,6 +4,9 @@ public class SnakeAndLadderGame {
 	
 	public static void main(String[] args) {
 		
-		System.out.println("Welcome to Snake and Ladder Game");
+		//Variable
+		int position = 0;
+		
+		System.out.println("Single player game begins with start position : "+position);
 	}
 }
